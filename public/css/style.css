@@ -1,0 +1,218 @@
+nav {
+  background-color: #EF3E42;
+  color: white;
+  height: 8vh;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+li a:hover {
+  color: white;
+}
+
+.header-image {
+  background-image: url("../assets/dogs.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vh;
+  position: relative;
+  background-position: center;
+}
+
+.heading {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+div div h1 {
+  font-size: 60px;
+}
+
+#heading-btn {
+  color: white;
+  border: 2px solid white;
+  border-radius: 0;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.content-left {
+  color: white;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 60%;
+}
+
+#header-left {
+  background-color: #332982;
+  margin: 0;
+  border-radius: 0;
+}
+
+p {
+  color: black;
+}
+
+.content-left-img {
+  width: 100%;
+}
+
+#join-btn {
+  color: #332982;
+  border: 2px solid #332982;
+  border-radius: 0;
+  width: 50%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.content-right {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#header-right {
+  background-color: #EF3E42;
+  margin: 0;
+  border-radius: 0;
+}
+
+#nav-footer {
+  display: flex;
+  list-style-type: none;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #332982;
+  border-top: 0.25rem solid #EF3E42;
+  color: white;
+}
+
+.footer-p {
+  color: white;
+  margin-top: 3rem;
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+.nav-links {
+  color: #777;
+  margin: 1rem 5rem 1rem 0rem;
+}
+
+.nav-links:hover {
+  color: #332982;
+}
+
+.active {
+  color: #332982;
+  border-bottom: 0.5rem solid #332982;
+}
+
+#bottom-left {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  height: 30%;
+}
+
+.card-horizontal {
+  display: flex;
+}
+
+#bottom-btn {
+  color: #EF3E42;
+  border: 0.125rem solid #EF3E42;
+  border-radius: 0;
+  width: 20%;
+  text-align: left;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card-content {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.card-titles {
+  color: #EF3E42;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-top: 1rem;
+}
+
+address {
+  margin-top: 1rem;
+}
+
+#card-right {
+  border: none;
+  border-radius: 0;
+}
+
+#card-left {
+  border-radius: 0;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
