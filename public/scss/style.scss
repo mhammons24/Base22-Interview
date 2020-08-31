@@ -47,10 +47,10 @@ nav
 .header-image {
     background-image: url('../assets/dogs.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 50vh;
     position: relative;
-    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center 25%;
     
 }
     .heading {
@@ -99,9 +99,7 @@ height: 60%;
         color: $color-blue;
         border: 2px solid $color-blue;
         border-radius: 0;
-        width: 50%;
         text-align: center;
-        font-size: 14px;
     }
 .content-right {
 color: white;
@@ -135,11 +133,12 @@ footer {
 .nav-links {
     color: $color-gray;
     margin: 1rem 5rem 1rem 0rem;
+    background: none;
+    border: none;
 }
 .nav-links:hover {
     color: $color-blue;
 }
-
 .active {
     color: $color-blue;
     border-bottom: .5rem solid $color-blue;
@@ -148,7 +147,7 @@ footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: none;
-    height: 30%;
+    height: 60%;
 }
 .card-horizontal {
     display: flex;
@@ -203,6 +202,10 @@ address{
     right: 0;
     width: 100%;
     height: 100%;
+  }
+  #bottom-left .card {
+    margin-bottom: 2rem;
+    border: none;
   }
 
 
