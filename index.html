@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adoptme.Org</title>
     <base href="/">
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/style.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="public/javascript/adoptScripts.js"></script>
 </head>
 
@@ -74,6 +76,7 @@
                     </div>
                 </div>
                 <div class="col-sm-8 content-right d-flex">
+                    <script id="video-template" type="text/x-handlebars-template">
                     <div class="card content-cards flex-fill h-100" id="card-right">
                         <div class="card-header" id="header-right">TESTIMONIAL OF THE MONTH</div>
                         <div class="card-body iframe-container h-100">
@@ -81,6 +84,7 @@
                                 src="https://www.youtube.com/embed/7Zxm2wcgeYI" frameborder="0"></iframe>
                         </div>
                     </div>
+                    </script>
                 </div>
             </div>
         </section>
@@ -89,10 +93,12 @@
                 <div class="col-sm-8">
                     <ul class="nav">
                         <li class="nav-item">
-                            <button class="nav-links active" id="programs" onclick="articleNavPrograms()">PROGRAMS</button>
+                            <button class="nav-links active" id="programs"
+                                onclick="articleNavPrograms()">PROGRAMS</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-links" id="companies" onclick="articleNavCompanies()">ASSOCIATED COMPANIES</button>
+                            <button class="nav-links" id="companies" onclick="articleNavCompanies()">ASSOCIATED
+                                COMPANIES</button>
                         </li>
                     </ul>
                     <div id="bottom-left">

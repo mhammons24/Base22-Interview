@@ -10,3 +10,12 @@ function articleNavPrograms() {
     document.getElementById("programs").classList.add("active");
     x.style.display = "inherit";
 }
+$(function () {
+    var templateScript = $("#video-template").html();
+  
+    var template = Handlebars.compile(templateScript);
+  
+    var compiledHtml = template();
+  
+    $('.content-right').html(compiledHtml);
+  })

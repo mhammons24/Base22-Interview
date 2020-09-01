@@ -13,199 +13,195 @@ $font-size-h2: 20px;
 $font-family-h2: $font-family-secondary;
 $font-weight-h2: bold;
 
-nav {
-    background-color: $color-red;
-    color: white;
-    height: 8vh;
-}
-nav 
-    .logo {
-       display: flex;
-       align-items: center;
-       font-size: 40px;
-       font-weight: lighter;
-       font-family: $font-family-h2;
-    }
-    #nav-list{
-        display: flex;
-        list-style-type: none;
-        justify-content: space-around;
-        align-items: center;
-    }
-        li 
-            a {
-                color: white;
-                font-size: $font-size-h2;
-                font-weight: $font-weight-h2;
-                font-family: $font-family-h2;
-            }
-        li
-            a:hover {
-                color: white;
-            }
 
-.header-image {
-    background-image: url('../assets/dogs.jpg');
-    background-repeat: no-repeat;
-    position: relative;
-    height: 50vh;
-    background-size: cover;
-    background-position: center 25%;
-    
+.card-body p {
+	font-family: $font-family-primary;
 }
-    .heading {
-        background-color: rgba(0,0,0,.3);
-        color: white;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        font-family: $font-family-h2;
-    }
-        div
-            div
-                h1 {
-                    font-size: $font-size-h1;
-                }
-#heading-btn{
-    color: white;
-    border: 2px solid white;
-    border-radius: 0;
-    text-align: left;
-    margin-bottom: 1rem;
-    margin-left: 15px;
-    font-family: $font-family-h2;
-    font-weight: $font-weight-h2;
-    font-size: 14px;
+nav {
+	background-color: $color-red;
+	color: white;
+	height: 8vh;
+}
+nav .logo {
+	align-items: center;
+	display: flex;
+	font-family: $font-family-h2;
+	font-size: 40px;
+	font-weight: lighter;
+}
+#nav-list {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+li a {
+	color: white;
+	font-family: $font-family-h2;
+	font-size: $font-size-h2;
+	font-weight: $font-weight-h2;
+}
+li a:hover {
+	color: white;
+}
+.header-image {
+	background-image: url('../assets/dogs.jpg');
+	background-position: center 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	position: relative;
+}
+.heading {
+	background-color: rgba(0,0,0,.3);
+	bottom: 0;
+	color: white;
+	font-family: $font-family-h2;
+	position: absolute;
+	width: 100%;
+}
+div div h1 {
+	font-size: $font-size-h1;
+}
+#heading-btn {
+	border: 2px solid white;
+	border-radius: 0;
+	color: white;
+	font-family: $font-family-h2;
+	font-size: 14px;
+	font-weight: $font-weight-h2;
+	margin-bottom: 1rem;
+	margin-left: 15px;
+	text-align: left;
 }
 .content-left {
-color: white;
-display: inline-block;
-margin-top: 2rem;
-margin-bottom: 2rem;
-height: 60%;
+	color: white;
+	display: inline-block;
+	height: 60%;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
-    #header-left{
-        background-color: $color-blue;
-        margin: 0;
-        border-radius: 0;
-    }
-    p {
-        color: black;
-    }
-    .content-left-img{
-        width: 100%;
-    }
-    #join-btn{
-        color: $color-blue;
-        border: 2px solid $color-blue;
-        border-radius: 0;
-        text-align: center;
-    }
+#header-left {
+	background-color: $color-blue;
+	border-radius: 0;
+	margin: 0;
+}
+p {
+	color: black;
+}
+.content-left-img {
+	width: 100%;
+}
+#join-btn {
+	border: 2px solid $color-blue;
+	border-radius: 0;
+	color: $color-blue;
+	text-align: center;
+}
 .content-right {
-color: white;
-margin-top: 2rem;
-margin-bottom: 2rem;
+	color: white;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
-#header-right{
-    background-color: $color-red;
-    margin: 0;
-    border-radius: 0;
+#header-right {
+	background-color: $color-red;
+	border-radius: 0;
+	margin: 0;
 }
-#nav-footer{
-    display: flex;
-    list-style-type: none;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    justify-content: space-between;
+#nav-footer {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin-right: 1rem;
+	margin-top: 1rem;
 }
 footer {
-    background-color: $color-blue;
-    border-top: .25rem solid $color-red;
-    color: white;
+	background-color: $color-blue;
+	border-top: .25rem solid $color-red;
+	color: white;
 }
 .footer-p {
-    color: white;
-    margin-top: 3rem;
+	color: white;
+	margin-top: 3rem;
 }
-.footer{
-    margin-top: 1rem;
+.footer {
+	margin-top: 1rem;
 }
 .nav-links {
-    color: $color-gray;
-    margin: 1rem 5rem 1rem 0rem;
-    background: none;
-    border: none;
+	background: none;
+	border: none;
+	color: $color-gray;
+	margin: 1rem 5rem 1rem 0rem;
 }
 .nav-links:hover {
-    color: $color-blue;
+	color: $color-blue;
 }
 .active {
-    color: $color-blue;
-    border-bottom: .5rem solid $color-blue;
+	border-bottom: .5rem solid $color-blue;
+	color: $color-blue;
 }
 #bottom-left {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: none;
-    height: 60%;
+	border: none;
+	height: 60%;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 .card-horizontal {
-    display: flex;
+	display: flex;
 }
 #bottom-btn {
-    color: $color-red;
-    border: .125rem solid $color-red;
-    border-radius: 0;
+	border: .125rem solid $color-red;
+	border-radius: 0;
+	bottom: 0;
+	color: $color-red;
+	font-size: 14px;
+	position: absolute;
+	text-align: left;
     width: 20%;
-    text-align: left;
-    font-size: 14px;
-    position: absolute;
-    bottom: 0;
+    white-space: normal;
 }
 .card-content {
-    display: inline-block;
-    padding-left: 1rem;
+	display: inline-block;
+	padding-left: 1rem;
 }
 .card-titles {
-    color: $color-red;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: $font-family-primary;
+	color: $color-red;
+	font-family: $font-family-primary;
+	font-size: 14px;
+	font-weight: bold;
 }
 .card-text {
-    font-size: 14px;
-    font-family: $font-family-primary;
-    font-weight: lighter;
-    margin-top: 1rem;
+	font-family: $font-family-primary;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 1rem;
 }
-address{
-    margin-top: 1rem;
+address {
+	margin-top: 1rem;
 }
 #card-right {
-    border: none;
-    border-radius: 0;
+	border: none;
+	border-radius: 0;
 }
 #card-left {
-    border-radius: 0;
+	border-radius: 0;
 }
 .iframe-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+	width: 100%;
 }
 .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-  }
-  #bottom-left .card {
-    margin-bottom: 2rem;
-    border: none;
-  }
-
-
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+#bottom-left .card {
+	border: none;
+	margin-bottom: 2rem;
+}

@@ -4,11 +4,14 @@
   "description": "Base22 coding challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "postcss public/css/style.css > public/css/style.min.css"
   },
   "author": "Michael Hammons",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.5.2"
+    "bootstrap": "^4.5.2",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.2"
   }
 }
