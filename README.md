@@ -14,3 +14,5 @@ The main goals I had going into this project were
  
  I had a lot of fun working through this project, the only regret I do have is not asking what framework you use or just asking what technologies could help me achieve the 
  front-end rendering portion. 
+
+ Please run using the command live-server.
