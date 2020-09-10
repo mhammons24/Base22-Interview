@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify-css": "postcss public/css/style.css > public/css/style.min.css"
+    "minify-css": "postcss public/css/style.css > public/css/style.min.css",
+    "start": "node index.js"
   },
   "author": "Michael Hammons",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "cssnano": "^4.1.10",
+    "express": "^4.17.1",
     "postcss-cli": "^7.1.2"
   }
 }
